@@ -1,146 +1,168 @@
 <!DOCTYPE html>
-
-<html>
-  <head>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
+<html lang="en">
 <!-- Notes
-- New Pic 
-- Add bio text
-- Local storage email button
-- Color style
-- Write resume
-- Make linnkedin
-- Fix weather site
--->
-<!------------------------------------ NAVBAR -->
-    <div class="navbar-fixed">
-        <nav>
-          <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Travis Lovingood</a>
-            <ul class="right hide-on-med-and-down">
-              <li><a href="https://github.com/TravisLovingood"><img src="links/github.PNG" alt="Github" height="50px" width="50px"></a></li>
-              <li><a href=""><img src="links/linkedin.PNG" alt="Linkedin" height="50px" width="50px"></a></li>
-            </ul>
-          </div>
-        </nav>
-    </div>
+- New Pic
 
-    <body>
-<!------------------------------------- BIO ------add bio/pic--------->
-        <div class="container">
+- Write resume
+- Add bio text
+
+- Make linnkedin
+
+- Local storage email button
+- Fix weather site
+-->    
+<!--ID NOTES
+id-emailSaveButton
+id-emailInput
+ -->
+    <head>
+        <title>Trav'sPortfolio</title>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body class="black">
+    <div class="row"></div>    
+<!------------------------------------ header --> 
+        <div class="container purple darken-1">
+            <div class="row"></div>
             <div class="row"style="text-align: center;">
-                <h1>
-                  About Me  
-                </h1>
+                <div class="col s1">
+                    <a hurf=""><img src="links/linkedin.PNG" alt="Linkedin" height="50px" width="50px" class="z-depth-3" ></a>
+                </div>
+                <div class="col s10">
+                    <h1 class="blue-text text-darken-2">Travis Lovingood</h1>
+                </div>
+                <div class="col ">
+                    <a href="https://github.com/TravisLovingood"><img src="links/github.PNG" alt="Github" height="50px" width="50px" class="z-depth-3"></a>
+                </div>
             </div>
-            <div class="row">
+        </div>
+<!------------------------------------- BIO ------add bio/pic--------->
+        <div class="container purple darken-1">
+            <div class="row"style="text-align: center;">
                 <div class="col m12 m12">
-                    <div class="card" style="text-align: center;"class="card horizontal">
-                            <span class="card-title"></span>                            
-                            <img src="links/me.PNG" alt="Picture of Travis" width="200px" height="200px"></img>
+                    <div class="card deep-purple accent-1" style="text-align: center;"><span class="yellow-text text-darken-3"><h4><strong>About Me</strong></h4></span>
+                        <div class="card-action"><img src="links/me.PNG" alt="Picture of Travis" width="200px" height="200px" class="z-depth-3"></img></div>    
                         <div class="card-action">
-                            <p>tttttttttttttttttttttttttttt</p>
+                            <p>Travis is the you know the best at yeah. Travis is the you know the best at yeah. 
+                                Travis is the you know the best at yeah. Travis is the you know the best at yeah. 
+                                Travis is the you know the best at yeah. Travis is the you know the best at yeah. 
+                                Travis is the you know the best at yeah. Travis is the you know the best at yeah.                                 
+                            </p>
                         </div>
                         <div class="card-action">
-                            <a href="">More About Me</a>
+                            <a href=""><span style="text-decoration: underline;">Click Here To Check Out My Resume.</span></a>
                         </div>
                     </div>    
                 </div>
             </div>
         </div>
-<!--------------------------------------- LINKS -------Add link Text ---------->
-        <div class="container">
-            <div class="row"style="text-align: center;">
-                <h1>
-                  My Portfolio  
-                </h1>
+<!--------------------------------------- LINKS ----------------->
+        <div class="container purple darken-1">
+            <div class="row"style="text-align: center;">                
+                <div class="col s12">
+                    <h3 class="blue-text text-darken-2"><strong>My Portfolio</h3></strong>
+                </div>    
             </div>
             <div class="row">
                 <div class="col m12 m12">
-                    <div class="card" style="text-align: center;">
-                            <img src="links/password.PNG" alt="Password Generator Screenshot" width="200px" height="200px"></img> 
-                            <span class="card-title">Password Generator</span>
-                        <div class="link info">
-                            <p>A simple password generating site.</p>
+                    <div class="card deep-purple accent-1" style="text-align: center;"><span class="yellow-text text-darken-3"><h4><strong>Password Generator</strong></h4></span>
+                        <div class="card-action"><img src="links/password.PNG" alt="Password Generator Screenshot" width="200px" height="200px"class="z-depth-3"></img></div>    
+                        <div class="link info"><p>One of my early assignments was to create a password generator with different criteria selected by the user.
+                            First the user clicks on the start button and is prompted to set the password attributes. Parameters such 
+                            as length, lowercase, uppercase, numeric, and/or special characters. After some brief questions are answered
+                            (with at least one-character type selected) the user is presented with a password written on the page.</p>
                         </div>
                         <div class="card-action">
-                            <a href="https://travislovingood.github.io/Password-Generator/">Click here to see my "Password Generator"</a>
+                            <a href="https://travislovingood.github.io/Password-Generator/"><span style="text-decoration: underline;">See "Password Generator"</span></a>
+                            <a href="https://github.com/TravisLovingood/Password-Generator"><span style="text-decoration: underline;">See "Repo"</span></a>
                         </div>
                     </div>    
                 </div>
             </div>      
             <div class="row">
                 <div class="col m12 m12">
-                    <div class="card" style="text-align: center;">
-                            <span class="card-title">Your Weather</span>
-                            <img src="links/Weather.PNG" alt="Weather Now Site Screenshot" width="200px" height="200px"></img>
-                        <div class="link info">
-                            <p>A site written around using API for the first time.</p>
+                    <div class="card deep-purple accent-1" style="text-align: center;"><span class="yellow-text text-darken-3"><h4><strong>Your Weather</strong></h4></span>
+                        <div class="card-action"><img src="links/Weather.PNG" alt="Weather Now Site Screenshot" width="200px" height="200px" class="z-depth-3"></img></div>
+                        <div class="link info"><p>The “Your Weather” site was the first time I encountered APIs. Using the “Open Weather Map” API to create
+                            a dashboard with a search form input. Upon searching the user is presented with current and future weather
+                            conditions for that city such as the temperature, the humidity, the wind speed, and the UV index. Plus, 
+                            soon to be added a 5-day forecast that displays the date, an icon representation of weather conditions, 
+                            the temperature, and the humidity.</p>
                         </div>
                         <div class="card-action">
-                            <a href="https://travislovingood.github.io/Your-Wheater-Site/">Click here to see the "Your Weather" site</a>
-                        </div>
+                            <a href="https://travislovingood.github.io/Your-Wheater-Site/"><span style="text-decoration: underline;">See "Your Weather"</span></a>
+                            <a href="https://github.com/TravisLovingood/Your-Wheater-Site"><span style="text-decoration: underline;">See "Repo"</span></a>
+                        </div>    
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col m12 m12">
-                    <div class="card" style="text-align: center;">
-                            <img src="links/Foodacation.PNG" alt="Food/Recipe Project Screenshot" width="200px" height="200px"></img>
-                            <span class="card-title">Foodacation</span>
-                        <div class="link info"style="text-align: center;">
-                            <p>For my first group project me and my team choces to make a food and dinning site. "</p>
+                    <div class="card deep-purple accent-1" style="text-align: center;"><span class="yellow-text text-darken-3"><h4><strong>Foodacation</strong></h4></span>
+                        <div class="card-action"><img src="links/Foodacation.PNG" alt="Food/Recipe Project Screenshot" width="200px" height="200px" class="z-depth-3"></img></div>
+                        <div class="link info"style="text-align: center;"><p>For this project, my team and I worked with Integrating data that is received from
+                             multiple server-side APIs and new concepts for working with a Git branch in a collaborative project. In the end we conceived, 
+                             executed and designed a site that we feel solves a real-world problem. What is for dinner? Go find out with “Foodication”.</p>
                         </div>
                         <div class="card-action">
-                            <a href="https://tomay91.github.io/Group-Project-1/index.html">Click here to see the "Foodacation" site</a>
+                            <a href="https://tomay91.github.io/Group-Project-1/index.html"><span style="text-decoration: underline;">See "Foodacation" project.</a></span>
+                            <a href="https://github.com/tomay91/Group-Project-1"><span style="text-decoration: underline;">See project "Repo"</a></span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
-    </body>
-<!-------------------------------------- FOOTER ---add linkedin link-->
-    <footer class="page-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col s4">
-                    <h5 style="text-align: center;">
-                        <a hurf=""><img src="links/linkedin.PNG" alt="Linkedin" height="50px" width="50px"></a>
-                    </h5> 
-                </div>
-                <div class="col s4">
-                    <h5 class="white-text" style="text-align: center;">My Email: 
-                        <p class="grey-text text-lighten-4"> tclovingood01@gmail</p>
-                    </h5>
-                </div>
-                <div class="col s4">
-                    <h5 style="text-align: center;"> 
-                        <a href="https://github.com/TravisLovingood"><img src="links/github.PNG" alt="Github" height="50px" width="50px"></a>
-                    </h5>
+<!--------------------------------------- Contacts----------------------------->
+        <div class="container purple darken-1">
+            <div class="row"style="text-align: center;">
+                <div class="col s12">
+                    <h3 id class="blue-text text-darken-2"><strong>Contacts</strong></h3>
                 </div>
             </div>
-
             <div class="row">
-                <form class="col s12" class="white-text">
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="email" type="email" class="validate" class="">
-                            <label for="email" style="text-align: center;">MyEmail@Email.com</label>
-                            <span class="helper-text" style="text-align: center;" data-error="Try Agian" data-success="right">
-                                Please leave your email.
-                                <a class="waves-effect waves-teal btn-flat"><i class="medium material-icons">add_box</i></a>
-                            </span>
+                <form class="col s12">
+                    <div class="card deep-purple accent-1" style="text-align: center;">
+                        <span class="yellow-text text-darken-3"><h4><strong>Please leave your email.</strong></h4></span>
+                        <div class="card-action">
+                            <div class="row">
+                                <div class="input-field col s12">                                    
+                                    <input id="email" type="email" class="validate" class="">
+                                    <label for="email" style="text-align: center;"><span class="helper-text" style="text-align: center;"><strong>Example@Email.com</strong></span></label>
+                                </div>
+                                <div class="col s12">
+                                    <button class="btn waves-effect waves-light yellow darken-3" type="submit" id="emailSaveButton">Submit</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </form>
             </div>
-        
+        </div>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+<!-------------------------------------- FOOTER --------------------->
+    <footer class=" container purple darken-1">
+        <div>
+            <div class="row">
+            </div>
+            <div class="row" style="text-align: center;">
+                <div class="col s4">
+                    <a hurf=""><img src="links/linkedin.PNG" alt="Linkedin" height="50px" width="50px" class="z-depth-3"></a>
+                </div>
+                <div class="col s4">
+                    <p class="yellow-text text-darken-3">My Email: tclovingood01@gmail</p>
+                </div>
+                <div class="col s4">
+                    <a href="https://github.com/TravisLovingood"><img src="links/github.PNG" alt="Github" height="50px" width="50px" class="z-depth-3"></a>
+                </div>
+            </div>
         </div>
     </footer>
+
 </html>
